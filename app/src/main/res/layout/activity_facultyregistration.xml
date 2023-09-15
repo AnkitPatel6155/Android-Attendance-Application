@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#2196F3"
     tools:context=".facultyregistration">
 
     <EditText
@@ -15,6 +15,7 @@
         android:hint="Enter subject code ex:(IT601)"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.602"
@@ -30,6 +31,7 @@
         android:hint="Enter Year"
         android:inputType="phone"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -45,6 +47,7 @@
         android:hint="ReEnter Password"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -56,7 +59,7 @@
         android:id="@+id/textView"
         android:layout_width="433dp"
         android:layout_height="101dp"
-        android:background="#03A9F4"
+        android:background="#F44336"
         android:gravity="center"
         android:textColor="#5E35B1"
         android:textColorHint="#F6EEEE"
@@ -77,6 +80,7 @@
         android:hint="Enter fullName"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -89,9 +93,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Enter Departman"
+        android:hint="Enter Department"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -107,6 +112,7 @@
         android:hint="Enter Collage name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -125,7 +131,8 @@
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.97" />
+        app:layout_constraintVertical_bias="0.97"
+        android:background="@drawable/shap"/>
 
     <TextView
         android:id="@+id/textView2"
@@ -151,6 +158,7 @@
         android:hint="Enter Password"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

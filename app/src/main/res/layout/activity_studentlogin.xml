@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2196F3"
     tools:context=".studentlogin">
 
     <Button
         android:id="@+id/mark3"
         android:layout_width="201dp"
         android:layout_height="69dp"
+        android:background="@drawable/shap"
         android:text="Viwe Attendance"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,6 +25,7 @@
         android:id="@+id/mark2"
         android:layout_width="156dp"
         android:layout_height="70dp"
+        android:background="@drawable/shap"
         android:text="SCAN"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,6 +41,7 @@
         android:layout_height="41dp"
         android:gravity="center"
         android:text="For Subject"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,7 +69,7 @@
         android:id="@+id/textView3"
         android:layout_width="419dp"
         android:layout_height="167dp"
-        android:background="#03A9F4"
+        android:background="#F44336"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,9 +79,10 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="295dp"
+        android:layout_height="71dp"
         android:text="MARK ATTENDANCE"
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -94,6 +98,9 @@
         android:layout_width="142dp"
         android:layout_height="47dp"
         android:text="Roll Number"
+        android:textColor="@color/white"
+        android:textColorHighlight="#ECE5E5"
+        android:textColorLink="#F8F0F0"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -107,6 +114,7 @@
         android:id="@+id/mark"
         android:layout_width="156dp"
         android:layout_height="70dp"
+        android:background="@drawable/shap"
         android:text="MARK"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -132,17 +140,30 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="81dp"
-        android:layout_height="45dp"
-        android:textColor="@color/white"
+        android:layout_width="264dp"
+        android:layout_height="47dp"
+        android:textColor="#F44336"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintHorizontal_bias="0.891"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="96dp"
+        android:layout_height="47dp"
+        android:text="TextView"
+        android:textColor="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -3,20 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/drawable/shap.xml" value="0.1735" />
         <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/activity_attendance_viwe.xml" value="0.20416666666666666" />
-        <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/activity_facultylogin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/activity_facultylogin.xml" value="0.25" />
         <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/activity_facultypage.xml" value="0.20416666666666666" />
         <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/activity_facultyregistration.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/activity_fviewattendance.xml" value="0.209375" />
         <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/activity_scanner_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
         <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/activity_studentlogin.xml" value="0.20416666666666666" />
         <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/activity_studentpage.xml" value="0.20416666666666666" />
         <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/activity_studentregistration.xml" value="0.20416666666666666" />
         <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/layout/view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android studio/AttendanceSystem1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1735" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

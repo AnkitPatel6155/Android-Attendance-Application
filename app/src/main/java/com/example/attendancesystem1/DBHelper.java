@@ -17,9 +17,9 @@ public class DBHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
 
-        sqLiteDatabase.execSQL("create Table student(SN INTEGER PRIMARY KEY AUTOINCREMENT ,roll varchar NOT NULL, name TEXT  NOT NULL,year VARCHAR NOT NULL,branch text not null,Password VARCHAR NOT NULL,subcode varchar not null) ");   // create table
+        sqLiteDatabase.execSQL("create Table student(SN INTEGER PRIMARY KEY AUTOINCREMENT ,roll varchar NOT NULL, name TEXT  NOT NULL,year date NOT NULL,branch text not null,Password VARCHAR NOT NULL,subcode varchar not null) ");   // create table
 
-        sqLiteDatabase.execSQL("create Table faculty(SN INTEGER PRIMARY KEY AUTOINCREMENT , name TEXT NOT NULL,collage text not null ,year VARCHAR NOT NULL,department text not null,Password VARCHAR NOT NULL,fsubcode varchar not null) ");   // create table
+        sqLiteDatabase.execSQL("create Table faculty(SN INTEGER PRIMARY KEY AUTOINCREMENT , name TEXT NOT NULL,collage text not null ,year date NOT NULL,department text not null,Password VARCHAR NOT NULL,fsubcode varchar not null) ");   // create table
 
         sqLiteDatabase.execSQL("create Table Attendance(Roll_no varchar not null,Subject_code varchar not null,Marked_at DATETIME DEFAULT CURRENT_TIMESTAMP)");
     }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#2196F3"
     tools:context=".studentregistration">
 
     <EditText
@@ -15,6 +15,7 @@
         android:hint="Enter subject code ex:(IT601)"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.606"
@@ -30,6 +31,7 @@
         android:hint="Enter Password"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -41,7 +43,7 @@
         android:id="@+id/textView"
         android:layout_width="415dp"
         android:layout_height="101dp"
-        android:background="#03A9F4"
+        android:background="#F44336"
         android:gravity="center"
         android:text="STUDENT REGISTRATION"
         android:textColor="@color/white"
@@ -61,6 +63,7 @@
         android:hint="Enter fullName"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -76,6 +79,7 @@
         android:hint="Enter Branch"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -91,6 +95,7 @@
         android:hint="Enter Roll No."
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -106,6 +111,7 @@
         android:hint="Enter Year"
         android:inputType="phone"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -123,7 +129,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939" />
+        app:layout_constraintVertical_bias="0.939"
+        android:background="@drawable/shap"/>
 
     <EditText
         android:id="@+id/password2"
@@ -133,6 +140,7 @@
         android:hint="ReEnter Password"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        android:textColorHint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

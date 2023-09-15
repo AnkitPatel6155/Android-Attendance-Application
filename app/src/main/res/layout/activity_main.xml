@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2196F3"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="443dp"
         android:layout_height="261dp"
-        android:background="#03A9F4"
+        android:background="#F44336"
         android:gravity="center"
-        android:text="WELCOME TO  ATTENDANCE SYSTEM"
+        android:text="QR ATTENDANCE APPLICATION"
         android:textColor="@color/white"
-        android:textSize="48sp"
+        android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -26,12 +27,15 @@
         android:layout_width="295dp"
         android:layout_height="111dp"
         android:text="FACULTY"
+        android:textColorHint="#2196F3"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.58" />
+        app:layout_constraintVertical_bias="0.58"
+        android:background="@drawable/shap"
+        />
 
     <Button
         android:id="@+id/student"
@@ -43,6 +47,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82" />
+        app:layout_constraintVertical_bias="0.82"
+        android:background="@drawable/shap"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

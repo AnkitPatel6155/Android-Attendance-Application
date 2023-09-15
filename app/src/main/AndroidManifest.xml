@@ -12,6 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AttendanceSystem1">
+
+
         <activity
             android:name=".facultylogin"
             android:exported="false" />
@@ -30,13 +32,17 @@
         <activity
             android:name=".scannerView"
             android:exported="false" />
-        <activity android:name=".AttendanceViwe" />
+        <activity
+            android:name=".AttendanceViwe" />
         <activity
             android:name=".studentpage"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="false"/>
+            <activity
+                android:name=".splash"
+                android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
